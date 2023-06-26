@@ -5,6 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact'
 import NavBar from './Navbar';
+import Footer from './Footer';
 
 function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -31,6 +32,8 @@ function PortfolioContainer() {
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+
+      <Footer />
     </div>
   );
 }

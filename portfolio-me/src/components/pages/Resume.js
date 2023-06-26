@@ -18,7 +18,7 @@ function Resume() {
         <div>
             <h1> Resume </h1>
             <p>Click below to download my Resume</p>
-            <button onClick={() =>{downloadFileAtURL(pdfURL)}}></button>
+            <button onClick={() =>{downloadFileAtURL(pdfURL)}}> Download PDF </button>
         </div>
     )
 }

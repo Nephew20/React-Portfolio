@@ -5,6 +5,7 @@ import StudyGuide from '../../images/first-application.JPG'
 import Scheduler from '../../images/Work Scheduler Screenshot.JPG'
 import NoteTaker from '../../images/NoteTaker.jpg'
 import WeatherDashboard from '../../images/Weather Dashboard.jpg'
+
 function Portfolio() {
     return (
         <div>
