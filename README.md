@@ -1,5 +1,4 @@
 # React-Portfolio
-# Social-Network-NoSQL
 
 ## Description
   
