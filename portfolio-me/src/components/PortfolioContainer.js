@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import Header from './Header';
+import Header from './Header'
 import About from './pages/About';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact'
 import NavBar from './Navbar';
 
@@ -12,6 +13,8 @@ function PortfolioContainer() {
     
     if (currentPage === 'About') {
       return <About />;
+    } else if (currentPage === 'Portfolio') {
+      return <Portfolio />
     }
     return <Contact />;
   };
@@ -19,15 +22,14 @@ function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-
     <div>
       <Header />
       {/* We are passing the currentPage from state and the function to update it */}
-      <NavBar className='d-flex' currentPage={currentPage} handlePageChange={handlePageChange} />
+      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
   );
 }
 
-export default PortfolioContainer;
+export default PortfolioContainer
