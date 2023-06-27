@@ -2,7 +2,7 @@
 
 ## Description
   
-The purpose of this project was simulate the back end function of the Social Networking site using Express and the Mongoose database. 
+A portfolio of my work using React.
 
  ## Table of Contents 
    - [Installation](#installation)
@@ -23,7 +23,7 @@ The purpose of this project was simulate the back end function of the Social Net
 - In your command line, type **npm install** 
 - Lastly, run **npm start** to run the application
 
-Click LINK to be taken to the deployes site: **(insert link here)**
+Click LINK to be taken to the deployed site: https://nephew20.github.io/React-Portfolio/
 
 ## Credits
 - Tutorials
