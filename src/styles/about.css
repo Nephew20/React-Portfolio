@@ -1,0 +1,20 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headshot img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+.about-info {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

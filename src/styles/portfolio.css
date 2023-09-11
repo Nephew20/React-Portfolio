@@ -1,0 +1,11 @@
+.port-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.port-images {
+    display: flex;
+    flex-direction: column;
+    
+}
