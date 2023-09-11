@@ -6,7 +6,7 @@ import '../styles/nav.css'
 function NavBar({ currentPage, handlePageChange }) {
   return (
     <header>
-    
+      
       <h1>Kevin J. Cofield</h1>
       
       <div className='nav'>

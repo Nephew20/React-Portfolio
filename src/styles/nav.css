@@ -3,6 +3,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 50px;
+    background-color: aqua;
+    margin-bottom: 20px;
 }
 
 h1 {
