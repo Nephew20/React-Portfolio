@@ -6,6 +6,24 @@
 
 .port-images {
     display: flex;
-    flex-direction: column;
-    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+.port-item {
+    width: 30%; 
+  }
+
+.port-item img{
+    width: 300px;
+}
+
+.port-item h3 {
+    margin: 10px;
+}
+
+.port-item p {
+    margin: 10px;
 }

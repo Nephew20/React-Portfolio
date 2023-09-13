@@ -13,36 +13,54 @@ function Portfolio() {
             <h2>Portfolio</h2>
 
             <div className="port-images">
-                
-                <h3> Side Hustle </h3>
-                <a href="https://side-hustle.herokuapp.com/">
-                    <img src={SideHustle} alt="Side Hustle Project" style={{width: '30%'}}/>
-                </a>
 
-                <h3> Travel Dashboard </h3>
-                <a href="https://kritishrestha.github.io/Traveler-Dashboard/" >
-                    <img src={TravelDashboard} alt="Dashboard" />
-                </a>
+                <div className="port-item">
+                    <h3> Side Hustle </h3>
+                    <a href="https://side-hustle.herokuapp.com/">
+                        <img src={SideHustle} alt="Side Hustle Project" />
+                    </a>
+                    <p>some text</p>
+                </div>
 
-                <h3> Study Guide </h3>
-                <a href="https://nephew20.github.io/prework-study-guide/" >
-                    <img src={StudyGuide} alt="Study Guide" />
-                </a>
+                <div className="port-item">
+                    <h3> Travel Dashboard </h3>
+                    <a href="https://kritishrestha.github.io/Traveler-Dashboard/" >
+                        <img src={TravelDashboard} alt="Dashboard" />
+                    </a>
+                    <p>some text</p>
+                </div>
 
-                <h3> Scheduler </h3>
-                <a href="https://nephew20.github.io/Scheduler/" >
-                    <img src={Scheduler} alt="Scheduler" />
-                </a>
+                <div className="port-item">
+                    <h3> Study Guide </h3>
+                    <a href="https://nephew20.github.io/prework-study-guide/" >
+                        <img src={StudyGuide} alt="Study Guide" />
+                    </a>
+                    <p>some text</p>
+                </div>
 
-                <h3> Note Taker </h3>
-                <a href="https://mighty-temple-98807.herokuapp.com/" >
-                    <img src={NoteTaker} alt="Note Taker" />
-                </a>
+                <div className="port-item">
+                    <h3> Scheduler </h3>
+                    <a href="https://nephew20.github.io/Scheduler/" >
+                        <img src={Scheduler} alt="Scheduler" />
+                    </a>
+                    <p>some text</p>
+                </div>
 
-                <h3> Weather Dashboard </h3>
-                <a href=" https://nephew20.github.io/Weather-Dashboard/" >
-                    <img src={WeatherDashboard} alt="Weather Dashboard" />
-                </a>
+                <div className="port-item">
+                    <h3> Note Taker </h3>
+                    <a href="https://mighty-temple-98807.herokuapp.com/" >
+                        <img src={NoteTaker} alt="Note Taker" />
+                    </a>
+                    <p>some text</p>
+                </div>
+
+                <div className="port-item">
+                    <h3> Weather Dashboard </h3>
+                    <a href=" https://nephew20.github.io/Weather-Dashboard/" >
+                        <img src={WeatherDashboard} alt="Weather Dashboard" />
+                    </a>
+                    <p>some text</p>
+                </div>
             </div>
 
         </div>
