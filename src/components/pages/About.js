@@ -17,12 +17,25 @@ function About() {
                 <div className="headshot">
                     <img src={headshot} alt="pic-of-me" />
                 </div>
-                
+
                 <div className="about-info">
-                    <p> Hello! My name is Kevin Cofield and I am a Biomedical Engineer turned Software Developer. I Currently live in Atlanta, GA and my skills are primarily in backend development. </p>
+                    <p>
+                        Hello! My name is Kevin Cofield and I am a Biomedical Engineer turned Full Stack Developer. Due to my foundation in biomedical engineering, I bring a creative and unique perspective to the software development field.
+                        I am detail-oriented, a problem solver, analytical, communicative, a team player, and a fast learner. I have a passion for learning and I believe that these qualities embody that of a developer.  
+
+                        
+                        {/* I have knowledge and skills in creating user friendly UI/UX applications and I have experience with working on multicultural and multidisciplinary teams.
+                        I am creative, detail orientented, a team player and a fast learner. I believe that through my engineering background, I bring */}
+                    </p>
+
                 </div>
+
             </div>
+            <br />
+
         </div>
+
+
     )
 }
 
