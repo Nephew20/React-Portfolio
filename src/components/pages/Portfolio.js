@@ -19,7 +19,10 @@ function Portfolio() {
                     <a href="https://side-hustle.herokuapp.com/">
                         <img src={SideHustle} alt="Side Hustle Project" />
                     </a>
-                    <p>some text</p>
+                    <ul>
+                        <li> <strong>Description:</strong> Website that provides users with weather data and information on </li>
+                        <li> <strong>Repo:</strong> <a href="https://github.com/dimartoro/side-hustle">Click Here</a> </li>
+                    </ul>
                 </div>
 
                 <div className="port-item">
@@ -27,7 +30,10 @@ function Portfolio() {
                     <a href="https://kritishrestha.github.io/Traveler-Dashboard/" >
                         <img src={TravelDashboard} alt="Dashboard" />
                     </a>
-                    <p>some text</p>
+                    <ul>
+                        <li> <strong>Description:</strong> Craiglist type website where users can post and accept side jobs </li>
+                        <li> <strong>Repo:</strong> <a href="https://github.com/dimartoro/side-hustle">Click Here</a> </li>
+                    </ul>
                 </div>
 
                 <div className="port-item">
