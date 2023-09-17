@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     return (
         <footer>
-            <h3> Click the links below to see more cool stuff!!</h3>
+            <h3> Click the links below to see</h3>
             <ul>
                 <li>
                     <a href="https://github.com/Nephew20?tab=repositories">
