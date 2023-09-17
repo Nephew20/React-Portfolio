@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.5c7e2f02.css",
-    "main.js": "/React-Portfolio/static/js/main.16f83aa3.js",
+    "main.css": "/React-Portfolio/static/css/main.d1724908.css",
+    "main.js": "/React-Portfolio/static/js/main.dfcd5690.js",
+    "static/media/Ecommerce Back-End Video.webm": "/React-Portfolio/static/media/Ecommerce Back-End Video.f325a0d2f12de29302a5.webm",
+    "static/media/README Generator Video.webm": "/React-Portfolio/static/media/README Generator Video.b0b9aa9ef08d04a537de.webm",
     "static/media/headshot.JPG": "/React-Portfolio/static/media/headshot.d9571326a63b5ad1cd0a.JPG",
-    "static/media/first-application.JPG": "/React-Portfolio/static/media/first-application.899b3a75fd992de84202.JPG",
+    "static/media/Book-Search Engine.JPG": "/React-Portfolio/static/media/Book-Search Engine.76e211365e915dfb92b7.JPG",
     "static/media/Traveler Dashboard.JPG": "/React-Portfolio/static/media/Traveler Dashboard.75e3de71abfe7841be34.JPG",
-    "static/media/Side Hustle.JPG": "/React-Portfolio/static/media/Side Hustle.6e64655696bc552cbb7f.JPG",
-    "static/media/Weather Dashboard.jpg": "/React-Portfolio/static/media/Weather Dashboard.d12116e9ea57d2b61f64.jpg",
-    "static/media/Work Scheduler Screenshot.JPG": "/React-Portfolio/static/media/Work Scheduler Screenshot.28f0a2527f60d445aff0.JPG",
     "static/media/NoteTaker.jpg": "/React-Portfolio/static/media/NoteTaker.badf950d32c890eda54c.jpg",
+    "static/media/Side Hustle.JPG": "/React-Portfolio/static/media/Side Hustle.5330d16b40747de69963.JPG",
     "index.html": "/React-Portfolio/index.html",
-    "main.5c7e2f02.css.map": "/React-Portfolio/static/css/main.5c7e2f02.css.map",
-    "main.16f83aa3.js.map": "/React-Portfolio/static/js/main.16f83aa3.js.map"
+    "main.d1724908.css.map": "/React-Portfolio/static/css/main.d1724908.css.map",
+    "main.dfcd5690.js.map": "/React-Portfolio/static/js/main.dfcd5690.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c7e2f02.css",
-    "static/js/main.16f83aa3.js"
+    "static/css/main.d1724908.css",
+    "static/js/main.dfcd5690.js"
   ]
 }
