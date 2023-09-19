@@ -4,7 +4,7 @@ import TravelDashboard from '../../images/Traveler Dashboard.JPG'
 import Ecommerce from '../../images/Ecommerce Back-End Video.webm'
 import ReadmeGen from '../../images/README Generator Video.webm'
 import NoteTaker from '../../images/NoteTaker.jpg'
-import BookSearchEngine from '../../images/Book-Search Engine'
+import BookSearchEngine from '../../images/Book-Search Engine.JPG'
 import '../../styles/portfolio.css'
 
 function Portfolio() {

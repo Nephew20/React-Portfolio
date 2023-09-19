@@ -2,28 +2,28 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 50px;
-    background-color: aqua;
+    padding-bottom: 10px;
+    background-color: rgb(252, 245, 236);
     margin-bottom: 20px;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     font-size: 24px;
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 2px 2px 5px rgb(12, 2, 2);
 }
 
 .nav-item a {
-    border: solid;
-    background-color: darkgrey;
     margin-right: 20px;
-    color: black
+    color: rgb(59, 51, 31);
+    font-weight: bold;
+    font-size: large;
 }
 
 .nav-item a:hover{
-    color: green;
+    color: red;
 }
 
 .nav-link.active {
-    color: white !important;
+    color: rgb(56, 52, 43) !important;
 }
