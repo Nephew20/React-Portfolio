@@ -7,7 +7,11 @@ function NavBar({ currentPage, handlePageChange }) {
   return (
     <header>
       
-      <h1>Kevin J. Cofield</h1>
+      <div className="my-name">
+        
+        Kevin J. Cofield
+        
+      </div>
       
       <div className='nav'>
 

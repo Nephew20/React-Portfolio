@@ -13,7 +13,7 @@ function About() {
         <div className="about-section">
             <h2> About Page </h2>
 
-            <div className="content-container">
+            <div className="info-container">
                 <div className="headshot">
                     <img src={headshot} alt="pic-of-me" />
                 </div>
@@ -33,6 +33,7 @@ function About() {
                 </div>
 
             </div>
+
             <br/>
             <br/>
             <br/>
@@ -42,7 +43,7 @@ function About() {
 
         </div>
 
-
+        
     )
 }
 

@@ -1,29 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 10px;
-    background-color: rgb(252, 245, 236);
-    margin-bottom: 20px;
+    background-color: rgb(252, 245, 236)
 }
 
-h1 {
-    font-family: cursive;
-    font-size: 24px;
-    text-shadow: 2px 2px 5px rgb(12, 2, 2);
+.my-name {
+  font-family: 'Allura', cursive;
+  font-size: 50px;
+  color: rgb(138, 89, 55);
 }
 
 .nav-item a {
     margin-right: 20px;
-    color: rgb(59, 51, 31);
+    color: rgb(101, 67, 34);
     font-weight: bold;
     font-size: large;
 }
 
 .nav-item a:hover{
-    color: red;
+    color: black;
 }
 
 .nav-link.active {
-    color: rgb(56, 52, 43) !important;
+    color: rgb(138, 89, 55) !important;
 }
