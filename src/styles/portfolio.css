@@ -1,29 +1,28 @@
-.port-section {
+.image-section {
+background-color: gray;
+}
+
+.cards {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 300px;
+}
+
+.card-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+
+.card-content img {
+    width: 100px;
     align-items: center;
 }
 
-.port-images {
+.vids {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 30px;
-
-}
-
-.port-item {
-    width: 30%; 
-  }
-
-.port-item img{
-    width: 300px;
-}
-
-.port-item h3 {
-    margin: 10px;
-}
-
-.port-item p {
-    margin: 10px;
 }

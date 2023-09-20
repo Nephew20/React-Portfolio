@@ -5,6 +5,7 @@ import TravelDashboard from '../../images/Traveler Dashboard.JPG'
 import NoteTaker from '../../images/NoteTaker.jpg'
 import BookSearch from '../../images/Book-Search Engine.JPG'
 import Ecommerce from '../../images/Ecommerce Back-End Video.webm'
+import ReadmeGen from '../../images/README Generator Video.webm'
 
 
 function Portfolio() {
@@ -45,8 +46,10 @@ function Portfolio() {
 
   ];
 
+
+
   return (
-    <div className="port-section">
+    <div className="image-section">
       <h2>Portfolio</h2>
       <h4>Click cards to view details and visit the deployed site</h4>
 
@@ -77,16 +80,29 @@ function Portfolio() {
           </div>
         ))}
 
-        <div className="videos">
-          <h3>E-Commerce Back End</h3>
-          <video width="450" autoPlay controls>
-            <source src={Ecommerce} type="video/webm" />
-          </video>
-          <ul>
-            <li> <strong>Description:</strong> Developed the server responses for an Ecommerce website. </li>
-            <li> <strong>Technologies Used: </strong> Sequilize, Express.js, .env </li>
-            <li> <strong>Repo:</strong> <a href="https://github.com/Nephew20/Can-I-Doge-It">Click Here</a> </li>
-          </ul>
+        <div className="video-section">
+          <div className="vids">
+            <h3>E-Commerce Back End</h3>
+            <video width="450" autoPlay controls>
+              <source src={Ecommerce} type="video/webm" />
+            </video>
+            
+            <ul>
+              <li> <strong>Description:</strong> Developed the server responses for an Ecommerce website. </li>
+              <li> <strong>Technologies Used: </strong> Sequilize, Express.js, .env </li>
+              <li> <strong>Repo:</strong> <a href="https://github.com/Nephew20/Can-I-Doge-It">Click Here</a> </li>
+            </ul>
+            
+            <h3>README Generator</h3>
+            <video width="450" autoPlay controls>
+              <source src={ReadmeGen} type="video/webm" />
+            </video>
+            <ul>
+              <li> <strong>Description:</strong> Developed the server responses for an Ecommerce website. </li>
+              <li> <strong>Technologies Used: </strong> Sequilize, Express.js, .env </li>
+              <li> <strong>Repo:</strong> <a href="https://github.com/Nephew20/Can-I-Doge-It">Click Here</a> </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
