@@ -9,7 +9,7 @@ import ReadmeGen from '../../images/README Generator Video.webm'
 
 
 function Portfolio() {
-  
+
   const portfolioItems = [
     {
       title: "Side Hustle",
@@ -81,18 +81,20 @@ function Portfolio() {
         ))}
 
         <div className="video-section">
-          <div className="vids">
+          <div className="card">
             <h3>E-Commerce Back End</h3>
             <video width="450" autoPlay controls>
               <source src={Ecommerce} type="video/webm" />
             </video>
-            
+
             <ul>
               <li> <strong>Description:</strong> Developed the server responses for an Ecommerce website. </li>
               <li> <strong>Technologies Used: </strong> Sequilize, Express.js, .env </li>
               <li> <strong>Repo:</strong> <a href="https://github.com/Nephew20/Can-I-Doge-It">Click Here</a> </li>
             </ul>
-            
+          </div>
+
+          <div className="card">
             <h3>README Generator</h3>
             <video width="450" autoPlay controls>
               <source src={ReadmeGen} type="video/webm" />

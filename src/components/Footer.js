@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/footer.css'
 
 function Footer() {
     return (
@@ -16,9 +17,7 @@ function Footer() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/channel/UChuAnFBLsRSL1J_KoIvUUig">
-                        YouTube
-                    </a>
+                    Email: cofieldk20@gmail.com
                 </li>
             </ul>
         </footer>
