@@ -29,7 +29,7 @@ function Portfolio() {
     },
     {
       title: "Note Taker",
-      description: "Allows users to write and store notes",
+      description: "Allows users to write and store notes.",
       technologies: "Express.js, HTML, CSS",
       imageSrc: NoteTaker,
       deployLink: "https://mighty-temple-98807.herokuapp.com",
@@ -51,14 +51,14 @@ function Portfolio() {
   return (
     <div className="image-section">
       <h2>Portfolio</h2>
-      <h4>Click cards to view details and visit the deployed site</h4>
+      <h4>Some of the Projects I've had the pleasure of working on!!</h4>
 
       <div className="cards">
         {portfolioItems.map((item, index) => (
 
           <div className="card-item" key={index}>
 
-            <div className="card-content">
+            <div className="card-image">
               <a href={item.deployLink} >
                 <img src={item.imageSrc} alt={item.title} />
               </a>
@@ -79,34 +79,45 @@ function Portfolio() {
 
           </div>
         ))}
+      </div>
 
-        <div className="video-section">
-          <div className="card">
-            <h3>E-Commerce Back End</h3>
-            <video width="450" autoPlay controls>
-              <source src={Ecommerce} type="video/webm" />
-            </video>
+      <br />
+      <br />
 
-            <ul>
-              <li> <strong>Description:</strong> Developed the server responses for an Ecommerce website. </li>
-              <li> <strong>Technologies Used: </strong> Sequilize, Express.js, .env </li>
-              <li> <strong>Repo:</strong> <a href="https://github.com/Nephew20/Can-I-Doge-It">Click Here</a> </li>
-            </ul>
-          </div>
 
-          <div className="card">
-            <h3>README Generator</h3>
-            <video width="450" autoPlay controls>
-              <source src={ReadmeGen} type="video/webm" />
-            </video>
-            <ul>
-              <li> <strong>Description:</strong> Developed the server responses for an Ecommerce website. </li>
-              <li> <strong>Technologies Used: </strong> Sequilize, Express.js, .env </li>
-              <li> <strong>Repo:</strong> <a href="https://github.com/Nephew20/Can-I-Doge-It">Click Here</a> </li>
-            </ul>
-          </div>
+      <div className="video-section">
+        <div className="vid-card">
+
+          <video width="450" autoPlay controls>
+            <source src={Ecommerce} type="video/webm" />
+          </video>
+          <h3>E-Commerce Back End</h3>
+          <ul>
+            <li> <strong>Description:</strong> Developed the server responses for an Ecommerce website. </li>
+            <li> <strong>Technologies Used: </strong> Sequilize, Express.js, .env </li>
+            <li> <strong>Repo:</strong> <a href="https://github.com/Nephew20/Can-I-Doge-It">Click Here</a> </li>
+          </ul>
+        </div>
+
+
+        <div className="vid-card">
+
+          <video width="450" autoPlay controls>
+            <source src={ReadmeGen} type="video/webm" />
+          </video>
+          <h3>README Generator</h3>
+
+          <ul>
+            <li> <strong>Description:</strong> Developed the server responses for an Ecommerce website. </li>
+            <li> <strong>Technologies Used: </strong> Sequilize, Express.js, .env </li>
+            <li> <strong>Repo:</strong> <a href="https://github.com/Nephew20/Can-I-Doge-It">Click Here</a> </li>
+          </ul>
         </div>
       </div>
+
+      <br/>
+      <br/>
+      
     </div>
   );
 }

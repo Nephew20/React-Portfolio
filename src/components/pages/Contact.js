@@ -1,4 +1,5 @@
 import React from "react";
+import '../../styles/contact.css'
 
 const pdfURL = "https://drive.google.com/file/d/12eSLSTXyXdJWDbGVVrVa0cjb_JoqwYSC/view?usp=sharing"
 function Contact() {
