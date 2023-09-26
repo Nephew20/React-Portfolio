@@ -14,14 +14,14 @@ header {
   color: rgb(138, 89, 55);
 }
 
-.nav-item a {
+.nav-item {
     margin-right: 20px;
     color: rgb(101, 67, 34);
     font-weight: bold;
     font-size: large;
 }
 
-.nav-item a:hover{
+.nav-item:hover{
     color: black;
 }
 

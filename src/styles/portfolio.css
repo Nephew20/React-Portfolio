@@ -70,6 +70,10 @@
     padding-top: 10px;
 }
 
+.vid-card h3 {
+    text-align: center;
+}
+
 .vid-card:hover {
     box-shadow: 10px 10px 5px 12px rgba(59, 11, 131, 0.4)
 }
