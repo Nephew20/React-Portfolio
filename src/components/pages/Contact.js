@@ -49,7 +49,7 @@ function Contact() {
 
             </div>
             <div className="resume">
-                <h1> Resume </h1>
+                <h2> Resume </h2>
                 <p>Click below to download my Resume</p>
                 <button className="resume-button" onClick={() => { downloadFileAtURL(pdfURL) }}> Download PDF </button>
             </div>

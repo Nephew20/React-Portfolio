@@ -1,4 +1,9 @@
 .contact-section {
     display: flex;
     justify-content: space-evenly;
+    background-color: gray;
+}
+
+.resume-button {
+    
 }

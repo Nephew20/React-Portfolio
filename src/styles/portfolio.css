@@ -22,20 +22,33 @@
     transition: 0.3s;
     max-width: 300px;
     max-height: 500px;
+    height: 400px;
     padding: 2px 16px;
     background-color: bisque;
     
 }
 
 .card-item:hover {
-    box-shadow: 0 8px 16px 0 rgba(59, 11, 131, 0.2)
+    box-shadow: 10px 10px 5px 12px rgba(59, 11, 131, 0.4)
 }
 
 .card-image img {
     display: block;
     width: 200px;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5px;
+}
+
+.card-info h3 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.card-links {
+    text-align: center;
+    margin-right: 10px;
 }
 
 .video-section {
@@ -55,6 +68,10 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
+}
+
+.vid-card:hover {
+    box-shadow: 10px 10px 5px 12px rgba(59, 11, 131, 0.4)
 }
 
 .vid-card video {

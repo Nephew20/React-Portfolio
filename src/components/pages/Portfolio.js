@@ -71,7 +71,7 @@ function Portfolio() {
             </div>
 
             <div className="card-links">
-              <strong>Repo:</strong>
+              <strong>Repo: </strong>
               <a href={item.repoLink} >
                 Click Here
               </a>
@@ -83,7 +83,8 @@ function Portfolio() {
 
       <br />
       <br />
-
+      <br />
+     
 
       <div className="video-section">
         <div className="vid-card">
