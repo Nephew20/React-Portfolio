@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.b6b50ae1.css",
-    "main.js": "/React-Portfolio/static/js/main.617c8889.js",
+    "main.css": "/React-Portfolio/static/css/main.03efb1be.css",
+    "main.js": "/React-Portfolio/static/js/main.e933d997.js",
     "static/media/Ecommerce Back-End Video.webm": "/React-Portfolio/static/media/Ecommerce Back-End Video.f325a0d2f12de29302a5.webm",
     "static/media/README Generator Video.webm": "/React-Portfolio/static/media/README Generator Video.b0b9aa9ef08d04a537de.webm",
     "static/media/headshot.JPG": "/React-Portfolio/static/media/headshot.d9571326a63b5ad1cd0a.JPG",
@@ -10,11 +10,11 @@
     "static/media/NoteTaker.jpg": "/React-Portfolio/static/media/NoteTaker.badf950d32c890eda54c.jpg",
     "static/media/Side Hustle.JPG": "/React-Portfolio/static/media/Side Hustle.5330d16b40747de69963.JPG",
     "index.html": "/React-Portfolio/index.html",
-    "main.b6b50ae1.css.map": "/React-Portfolio/static/css/main.b6b50ae1.css.map",
-    "main.617c8889.js.map": "/React-Portfolio/static/js/main.617c8889.js.map"
+    "main.03efb1be.css.map": "/React-Portfolio/static/css/main.03efb1be.css.map",
+    "main.e933d997.js.map": "/React-Portfolio/static/js/main.e933d997.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6b50ae1.css",
-    "static/js/main.617c8889.js"
+    "static/css/main.03efb1be.css",
+    "static/js/main.e933d997.js"
   ]
 }
