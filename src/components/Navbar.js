@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../styles/nav.css'
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
@@ -18,15 +18,15 @@ function NavBar() {
 
         <ul>
           <li className="nav-item">
-            <Link to="/"> About </Link>
+            <NavLink to="/" className='nav-links'> About </NavLink>
           </li>
 
           <li className="nav-item">
-            <Link to="/portfolio"> Portfolio </Link>
+            <NavLink to="/portfolio" className='nav-links'> Portfolio </NavLink>
           </li>
 
           <li className="nav-item">
-            <Link to="/contact"> Contact </Link>
+            <NavLink to="/contact" className='nav-links'> Contact </NavLink>
           </li>
         </ul>
 

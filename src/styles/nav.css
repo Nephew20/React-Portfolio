@@ -5,26 +5,56 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 10px;
-    background-color: rgb(252, 245, 236)
+    background-color: rgb(252, 245, 236);
 }
 
 .my-name {
-  font-family: 'Allura', cursive;
-  font-size: 50px;
-  color: rgb(138, 89, 55);
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    color: rgb(138, 89, 55);
 }
 
-.nav-item {
+.nav {
+    display: flex; /* Display the links in a row */
+    align-items: center; /* Align the links vertically in the center with my-name */
+}
+
+.nav ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+.nav li {
+    margin-right: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.nav-links {
+    color: rgb(101, 67, 34);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: larger;
+}
+
+.nav-links:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links.active {
+    color: black !important;
+}
+
+/* .nav-link {
     margin-right: 20px;
     color: rgb(101, 67, 34);
     font-weight: bold;
     font-size: large;
 }
 
-.nav-item:hover{
-    color: black;
-}
 
-.nav-link.active {
-    color: rgb(138, 89, 55) !important;
-}
+
+
+} */
