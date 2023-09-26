@@ -94,7 +94,7 @@ function Portfolio() {
           </video>
           <h3>E-Commerce Back End</h3>
           <ul>
-            <li>  Developed the server responses for an Ecommerce website. </li>
+            <li> Developed the server responses for an Ecommerce website. </li>
             <li> <strong>Technologies Used: </strong> Sequilize, Express.js, .env </li>
             <li> <strong>Repo:</strong> <a href="https://github.com/Nephew20/Can-I-Doge-It">Click Here</a> </li>
           </ul>

@@ -1,23 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
 .about-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: gray;
+    padding-right: 5px;
 }
 
 .about-section h2 {
+    font-family: 'Dela Gothic One', cursive;
     font-size: 50px;
+
 }
 
 .headshot img {
     width: 300px;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 .info-container {
     display: flex;
     align-items: center;
 }
+
 .about-info {
     display: flex;
     align-items: flex-start;

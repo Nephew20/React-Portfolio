@@ -12,11 +12,12 @@ header {
     font-family: 'Allura', cursive;
     font-size: 50px;
     color: rgb(138, 89, 55);
+    margin-left: 20px;
 }
 
 .nav {
-    display: flex; /* Display the links in a row */
-    align-items: center; /* Align the links vertically in the center with my-name */
+    display: flex; 
+    align-items: center; 
 }
 
 .nav ul {
@@ -44,7 +45,8 @@ header {
 }
 
 .nav-links.active {
-    color: black !important;
+    color: rgb(138, 89, 55) !important;
+    text-decoration: underline;
 }
 
 /* .nav-link {
