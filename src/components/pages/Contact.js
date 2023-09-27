@@ -18,7 +18,7 @@ function Contact() {
     return (
         <div className="contact-section">
             <div className="contact">
-                <h2> Contact </h2>
+                <h2> Contact Me </h2>
                 <p>Send me a message!</p>
 
                 <form className="contact">

@@ -4,11 +4,11 @@ import '../styles/footer.css'
 function Footer() {
     return (
         <footer>
-            <h3> Click the links below to see</h3>
+            <h3> Click links to see more </h3>
             <ul>
                 <li>
                     <a href="https://github.com/Nephew20?tab=repositories">
-                        Repo
+                        GitHub
                     </a>
                 </li>
                 <li>
